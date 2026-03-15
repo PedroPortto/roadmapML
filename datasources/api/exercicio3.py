@@ -23,7 +23,7 @@ while url and paginas < 2:
         url = dados['next']
         paginas += 1
 
-        print(f"Página {paginas} salva no MongoDB! Indo dormir...")
+        print(f"Página {paginas} salva no MongoDB! Indo dormir...")     
         time.sleep(2)
     
     else:
